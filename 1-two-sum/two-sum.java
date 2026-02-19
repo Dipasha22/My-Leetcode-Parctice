@@ -8,6 +8,6 @@ class Solution {
             }
             map.put(nums[i], i);
         }
-        return new int[] {}; // No solution per constraints
+        return new int[] {}; 
     }
 }
