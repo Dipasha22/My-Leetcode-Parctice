@@ -7,7 +7,7 @@ class Solution {
         int prev1 = 2;  // n=2 ways
         
         for (int i = 3; i <= n; i++) {
-            int current = prev1 + prev2; 
+            int current = prev1 + prev2;  // Fibonacci step
             prev2 = prev1;
             prev1 = current;
         }
